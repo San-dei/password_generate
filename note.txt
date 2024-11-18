@@ -1,0 +1,21 @@
+
+
+    const inputRange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setRange(Number(event.target.value));
+  };
+
+  const inputMinus = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setMinus(event.target.checked);
+  };
+
+  const inputMayus = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setMayus(event.target.checked);
+  };
+
+  const inputNumber = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setAlphaNumber(event.target.checked);
+  };
+
+  const inputSpecial = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSpecial(event.target.checked);
+  };
