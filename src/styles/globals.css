@@ -10,3 +10,24 @@
   --color-terciario: #00adb5;
   --color-cuaternario: #eeeeee;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-secundario);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-terciario);
+  border-radius: 10px;
+  border: 2px solid var(--color-secundario);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-cuaternario);
+  border-color: var(--color-terciario);
+}
