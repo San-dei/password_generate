@@ -1,16 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --color-primario: #222831;
-  --color-secundario: #393e46;
-  --color-terciario: #00adb5;
-  --color-cuaternario: #eeeeee;
-}
-
+/* Estilos globales para el scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -30,4 +18,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-cuaternario);
   border-color: var(--color-terciario);
+}
+
+/* Compatibilidad con Firefox */
+body {
+  scrollbar-color: var(--color-terciario) var(--color-secundario);
+  scrollbar-width: thin;
 }
