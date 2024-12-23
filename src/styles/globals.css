@@ -1,27 +1,12 @@
-/* Estilos globales para el scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--color-secundario);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-terciario);
-  border-radius: 10px;
-  border: 2px solid var(--color-secundario);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-cuaternario);
-  border-color: var(--color-terciario);
-}
-
-/* Compatibilidad con Firefox */
-body {
-  scrollbar-color: var(--color-terciario) var(--color-secundario);
-  scrollbar-width: thin;
+:root {
+  --color-primario: #222831;
+  --color-secundario: #393e46;
+  --color-terciario: #00adb5;
+  --color-cuaternario: #eeeeee;
 }

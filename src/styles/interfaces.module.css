@@ -10,7 +10,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.contra {
+.contra{
   font-size: 20px;
 }
 
@@ -123,7 +123,7 @@
     font-size: 1.2rem;
   }
 
-  .contra {
+  .contra{
     font-size: 16px;
   }
 }
@@ -131,8 +131,8 @@
 @media (max-width: 530px) {
   .contra {
     font-size: 14px;
-    margin-top: 0.7rem;
-    overflow-x: scroll;
+    margin-top: .7rem;
+    overflow-x: scroll; 
   }
 
   .contra {
@@ -140,6 +140,7 @@
     scrollbar-width: thin;
   }
 }
+
 
 @media (max-width: 480px) {
   .container {
